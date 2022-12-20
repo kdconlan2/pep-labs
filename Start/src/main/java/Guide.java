@@ -12,7 +12,7 @@
  * something that an Object can 'do'. Objects contain states (variables) and behavior (methods). More on methods
  * below.
  *
- * The public keyword here is an access modifiers. The access modifier affects if the class, variable,
+ * The public keyword here is an access modifier. The access modifier affects if the class, variable,
  * or method is visible outside this class (in other files). Public is used here to designate this class as
  * accessible across the entire application.
  */
