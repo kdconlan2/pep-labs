@@ -5,9 +5,10 @@ public class CombineStrings {
      * This method should return the combination of two Strings.
      * @param a the first part of the string to be combined.
      * @param b the second part of the string to be combined.
+     * 
      * @return the combination of strings a and b.
      */
     public String combine(String a, String b){
-        return "";
+        return a + b;
     }
 }
