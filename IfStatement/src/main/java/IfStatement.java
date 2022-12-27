@@ -22,3 +22,13 @@ public class IfStatement {
         
     }
 }
+
+public class Ball {
+public static void main (String[] args){
+    
+    if boolean = (x == y){
+        System.out.println( true);
+}   else {
+        System.out.println( false);
+}}
+}
