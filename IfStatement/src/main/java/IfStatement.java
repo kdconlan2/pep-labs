@@ -16,19 +16,6 @@ public class IfStatement {
      * @param y second number to be compared.
      * @return x if bool is true. if bool is false, return y.
      */
-    public int ifExample(boolean bool, int x, int y){
-        
-        return 0;
-        
-    }
-}
-
-public class Ball {
-public static void main (String[] args){
     
-    if boolean = (x == y){
-        System.out.println( true);
-}   else {
-        System.out.println( false);
-}}
-}
+     
+
