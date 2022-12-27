@@ -18,7 +18,10 @@ public class IfStatement {
      */
     
      public int ifExample(boolean bool, int x, int y){
-        return 0;
+        if (bool == true){ 
+            return x;
+            }
+            return y;
      }
-
+     
 }
