@@ -45,7 +45,7 @@ public class Bird {
      *  * greater than or equal to 3.
      */
     public String sound(){
-        return "";
+        return "Chirp";
     }
 
 }
