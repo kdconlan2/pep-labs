@@ -33,8 +33,8 @@
     checkoutLocation: pep-gitpod-workspace
     upstreamRemoteURI: https://github.com/revature-curriculum/pep-gitpod-workspace.git
   :gitpod_workspace:
-    :workspace_id: kdconlan2-pepgitpodwork-12tz84crev2
-    :workspace_url: https://kdconlan2-pepgitpodwork-12tz84crev2.ws-us79.gitpod.io
+    :workspace_id: kdconlan2-pepgitpodwork-egy40qdnwn1
+    :workspace_url: https://kdconlan2-pepgitpodwork-egy40qdnwn1.ws-us81.gitpod.io
     :repo_root: "/workspace/pep-gitpod-workspace"
     :git_user_email: kdconlan2@gmail.com
     :git_user_name: Katherine Conlan
