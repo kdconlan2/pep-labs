@@ -1,3 +1,4 @@
+import javax.swing.plaf.basic.BasicLabelUI;
 
 public class InstantiationExample {
     /**
@@ -18,6 +19,7 @@ public class InstantiationExample {
      * @return any object.
      */
     public Object instantiateANewObject(){
-        return null;
+        String white = new String("blanca");
+        return white;
     }
 }
