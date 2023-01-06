@@ -17,7 +17,7 @@ public class EvenOrOdd {
        
         if (n % 2 == 0); 
         return "Even";
-        else "Odd";
+        
 
     } 
 }
