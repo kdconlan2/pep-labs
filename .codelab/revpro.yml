@@ -12,29 +12,21 @@
   :gitpod_workspace_context:
     isFile: false
     path: ''
-    title: kdconlan2/pep-gitpod-workspace - main
+    title: revature-curriculum/pep-gitpod-workspace - main
     ref: main
     refType: branch
-    revision: 5d0ee2b0d677c8aee69a52cbfbf882eaab758954
+    revision: c834644ff16c92f8dd4e801d74ebbc86bdecaa2e
     repository:
-      cloneUrl: https://github.com/kdconlan2/pep-gitpod-workspace.git
+      cloneUrl: https://github.com/revature-curriculum/pep-gitpod-workspace.git
       host: github.com
       name: pep-gitpod-workspace
-      owner: kdconlan2
+      owner: revature-curriculum
       private: false
-      fork:
-        parent:
-          cloneUrl: https://github.com/revature-curriculum/pep-gitpod-workspace.git
-          host: github.com
-          name: pep-gitpod-workspace
-          owner: revature-curriculum
-          private: false
-    normalizedContextURL: https://github.com/kdconlan2/pep-gitpod-workspace
+    normalizedContextURL: https://github.com/revature-curriculum/pep-gitpod-workspace
     checkoutLocation: pep-gitpod-workspace
-    upstreamRemoteURI: https://github.com/revature-curriculum/pep-gitpod-workspace.git
   :gitpod_workspace:
-    :workspace_id: kdconlan2-pepgitpodwork-egy40qdnwn1
-    :workspace_url: https://kdconlan2-pepgitpodwork-egy40qdnwn1.ws-us81.gitpod.io
+    :workspace_id: revaturecur-pepgitpodwo-2tm2ax1apox
+    :workspace_url: https://revaturecur-pepgitpodwo-2tm2ax1apox.ws-us81.gitpod.io
     :repo_root: "/workspace/pep-gitpod-workspace"
     :git_user_email: kdconlan2@gmail.com
     :git_user_name: Katherine Conlan
