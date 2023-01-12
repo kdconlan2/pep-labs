@@ -16,9 +16,9 @@ public class HardcodedLogin {
      */
     public boolean login(String username, String password){
         if (username == "admin")
-            and (password == qwerty){
+            and (password == qwerty)}
                 
-            }
+            
         }
         
         return false;
