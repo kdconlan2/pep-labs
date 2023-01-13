@@ -15,25 +15,14 @@ public class HardcodedLogin {
      * @return true if there is a successful login, and false otherwise.
      */
     public boolean login(String username, String password){
-        boolean granted= true;
-         while (true){
-            Scanner sc= new Scanner(System.in);
-            System.out.println("username:");
-            String username1 = sc.nextLine();
-            System.out.println("password:");
-            String password1 = sc.nextLine();
-
-            if (username1){
-                boolean usernameA = username1.equalsAdmin("admin");
-                boolean usernameB = username1.equalsUser("user");}
-             if (password1){   
-                boolean passwordA = password1.equalsAdmin("qwerty");
-                boolean passwordB = password1.equalsUser("password");}
-                if(usernameA && passwordA)= granted;
-                if(usernameB && passwordB) = granted;
+        if (username=="admin" && password=="qwerty"){
+               return true;              
             }
-         }
+        else if (username=="user" && password=="password"){
+                return true;
+            }
+            else return false;
+        }}
         
-        return false;
-    }
-
+    
+    
