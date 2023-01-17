@@ -25,8 +25,8 @@
     normalizedContextURL: https://github.com/revature-curriculum/pep-gitpod-workspace
     checkoutLocation: pep-gitpod-workspace
   :gitpod_workspace:
-    :workspace_id: revaturecur-pepgitpodwo-suizb37l9x2
-    :workspace_url: https://revaturecur-pepgitpodwo-suizb37l9x2.ws-us82.gitpod.io
+    :workspace_id: revaturecur-pepgitpodwo-qx8px3t1jde
+    :workspace_url: https://revaturecur-pepgitpodwo-qx8px3t1jde.ws-us82.gitpod.io
     :repo_root: "/workspace/pep-gitpod-workspace"
     :git_user_email: kdconlan2@gmail.com
     :git_user_name: Katherine Conlan
