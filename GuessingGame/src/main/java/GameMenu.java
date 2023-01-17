@@ -13,19 +13,20 @@ import java.util.Scanner;
  */
 public class GameMenu {
     public static void main(String[] args) {
-        Scanner userInputScanner = new Scanner(System.in);
-        GameService gameService = new GameService();
-        boolean playing = true;
-        System.out.println("It's time to start guessing the secret number, which is the first three digits of pi!");
-        while(playing){
-            System.out.println("Guess: ");
-            double guessNumber = userInputScanner.nextDouble();
-            boolean correct = gameService.checkGuess(guessNumber);
-            if(correct){
-                System.out.println("You got the secret number! Thanks for playing");
-                playing = false;
-            }else{
-                System.out.println("Incorrect!");
+        try (Scanner userInputScanner = new Scanner(System.in)) {
+            GameService gameService = new GameService();
+            boolean playing = true;
+            System.out.println("It's time to start guessing the secret number, which is the first three digits of pi!");
+            while(playing){
+                System.out.println("Guess: ");
+                double guessNumber = userInputScanner.nextDouble();
+                boolean correct = gameService.checkGuess(guessNumber);
+                if(correct){
+                    System.out.println("You got the secret number! Thanks for playing");
+                    playing = false;
+                }else{
+                    System.out.println("Incorrect!");
+                }
             }
         }
     }

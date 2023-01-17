@@ -17,7 +17,8 @@ public class GameService {
      * There is no need to change anything in this constructor.
      */
     public GameService(){
-        secretNumber = 3.14;}
+        secretNumber = 3.14;
+    }
 
     /**
      * TODO: this method should return true if guessNumber is equal to the secretNumber, and false otherwise.
@@ -25,9 +26,20 @@ public class GameService {
      * @param guessNumber the number that the user has input into their console.
      * @return true if guessNumber is equal to the secretNumber, false otherwise.
      */
-    public boolean checkGuess(){
-        boolean isEqual = true;
+    public boolean checkGuess(double guessNumber) {
         if (guessNumber == secretNumber);
-        }
-        else false;
+          return true;  
+          else if (guessNumber != secretNumber);
+          return false;
+              } 
+
+    public double getSecretNumber() {
+        return secretNumber;
+    }
+
+    public void setSecretNumber(double secretNumber) {
+        this.secretNumber = secretNumber;
+    
+
+}
 }
