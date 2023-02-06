@@ -6,8 +6,8 @@
  */
 
 public class CustomException extends Exception{
-    public CustomException(String, message);{
-        super ("No Data");
-        this.setCode(code);
+    public CustomException(String message) {
+        super (message);
+        
     }
 }
