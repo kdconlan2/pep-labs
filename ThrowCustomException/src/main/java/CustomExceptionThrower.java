@@ -11,5 +11,14 @@ public class CustomExceptionThrower {
      */
     public void CustomException()throws CustomException{
        
+        try{
+
+
+        }
+
+        catch {
+
+            
+        }
 
 }
