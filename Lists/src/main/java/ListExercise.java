@@ -70,8 +70,9 @@ public class ListExercise {
         arrL.add(37);
         arrL.add(79);
         arrL.add(19);
-    }
-
+        
+    }   
+   
     /**
      * Get a particular index of a list.
      * Lists, like arrays, are zero-indexed, so they start counting at zero. For instance,
@@ -85,10 +86,8 @@ public class ListExercise {
      * @return the int at the location in 'list' represented by 'index'.
      */
     public int get(List<Integer> arrL, int index){
-        int index= element;
-        n= index;
-        arrL.get(n);
-        return element(n);
+        int element = arrL.get(index);
+        return element;
         
     }
 
@@ -102,8 +101,8 @@ public class ListExercise {
      * @return nothing, pass by reference will cause changes to the list object to be reflected across the program.
      */
     public void removeFromList(List<Integer> arrL, int position){
-        arrL.remove(2);
-        arrL.remove(5);
+        arrL.remove(position);
+        arrL.remove(3);
     }
 
     /**
@@ -116,6 +115,6 @@ public class ListExercise {
      * @return nothing, pass by reference will cause changes to the list object to be reflected across the program.
      */
     public void updateAtPosition(List<Integer> arrL, int position, int value){
-
+        arrL.set(4, 42);
     }
 }
