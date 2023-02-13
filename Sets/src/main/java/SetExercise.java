@@ -21,8 +21,8 @@ public class SetExercise {
      * @return a new Set<Integer> object.
      */
     public Set<Integer> createSet(){
-        HashSet<Integer> set6 = new HashSet<Integer>();
-        return set6;
+        Set<Integer> set = new HashSet<Integer>();
+        return set;
     }
 
     /**
@@ -30,9 +30,9 @@ public class SetExercise {
      * @param set The set that we will be manipulating.
      * @return the size of set. (number of values)
      */
-    public int getSize(Set<Integer> set6){
+    public int getSize(Set<Integer> set){
 
-        return set6.size();
+        return set.size();
     }
 
     /**
@@ -41,8 +41,8 @@ public class SetExercise {
      * @param item The item which we will be adding to set.
      * @return nothing, pass by reference will cause changes to the list object to be reflected across the program.
      */
-    public void addUniqueItem(Set<Integer> set6, int item){
-        set6.add(1);
+    public void addUniqueItem(Set<Integer> set, int item){
+        set.add(1);
                   
     }
 
@@ -52,8 +52,8 @@ public class SetExercise {
      * @param item The item which we will be removing from set.
      * @return nothing, pass by reference will cause changes to the list object to be reflected across the program.
      */
-    public void removeItem(Set<Integer> set6, int item){
-        set6.remove(1);
+    public void removeItem(Set<Integer> set, int item){
+        set.remove(1);
         
     }
 }
