@@ -1,5 +1,6 @@
 
 import java.util.Set;
+import java.util.HashSet;
 
 /**
  * Sets are unordered collections of elements. Sets do not allow duplicates.
@@ -20,7 +21,8 @@ public class SetExercise {
      * @return a new Set<Integer> object.
      */
     public Set<Integer> createSet(){
-        return null;
+        HashSet<Integer> set6 = new HashSet<Integer>();
+        return set6;
     }
 
     /**
@@ -28,8 +30,9 @@ public class SetExercise {
      * @param set The set that we will be manipulating.
      * @return the size of set. (number of values)
      */
-    public int getSize(Set<Integer> set){
-        return 0;
+    public int getSize(Set<Integer> set6){
+
+        return set6.size();
     }
 
     /**
@@ -38,8 +41,9 @@ public class SetExercise {
      * @param item The item which we will be adding to set.
      * @return nothing, pass by reference will cause changes to the list object to be reflected across the program.
      */
-    public void addUniqueItem(Set<Integer> set, int item){
-
+    public void addUniqueItem(Set<Integer> set6, int item){
+        set6.add(1);
+                  
     }
 
     /**
@@ -48,7 +52,8 @@ public class SetExercise {
      * @param item The item which we will be removing from set.
      * @return nothing, pass by reference will cause changes to the list object to be reflected across the program.
      */
-    public void removeItem(Set<Integer> set, int item){
-
+    public void removeItem(Set<Integer> set6, int item){
+        set6.remove(1);
+        
     }
 }
